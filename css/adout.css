@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Company*/
+.top{ height:296px; background-color:#666; background-image:url(../img/Company01.jpg); background-position:center}
+.top .position h1{ font-size:48px; color:#FFF; font-family:"微软雅黑"; font-weight:normal; text-align:center; padding-top:82px}
+.top .position h3{ font-size:20px; color:#FFF; font-family:"微软雅黑"; font-weight:normal; text-align:center; margin-top:12px}
+.top .position P{ font-size:14PX; color:#fff; text-align:center; margin-top:76px}
+.top .position P a{color:#fff}
+.top .position P a:hover{ border-bottom:1px solid #fff}
+.top .position P span{ border-bottom:1px solid #fff}
+
+
+/*项目经验*/
+.middle .about_us .sub_nav{ background-image:url(../img/underline.png); background-repeat:no-repeat; background-position:bottom; height:38px}
+.middle .about_us .sub_nav ul{ overflow:hidden; width:588px; margin:0 auto; margin-top:25px; font-family:"微软雅黑"}
+.middle .about_us .sub_nav li{ font-size:18px; float:left; width:74px; text-align:center; margin-right:71px;}
+.middle .about_us .sub_nav li.on a{ color:#c39274;}
+.middle .about_us .sub_nav li.on{border-bottom: 1px solid #c39274}
+.middle .about_us .sub_nav li a{ color:#333333; padding-bottom:13px; display:block}
+.middle .about_us .sub_nav li:hover a{ color:#c39274}
+.middle .about_us .sub_nav li:hover{ border-bottom: 1px solid #c39274}
+.middle .about_us .text{ margin-top:30px;}
+.middle .about_us .text p{  line-height:26px; font-size:14px; width:1120px;}
+
+.middle .about_us .data{ overflow:hidden; margin-top:70px}
+.middle .about_us .data ul{ width:200%; overflow:hidden}
+.middle .about_us .data li{ float:left; margin-left:56px; margin-right:214px;}
+.middle .about_us .data li b{ font-size:30px; color:#333333}
+.middle .about_us .data li span{ font-size:14px; color:#333333}
+.middle .about_us .data li p{ font-size:14px; color:#999999}
+
+/*图片*/
+.middle .about_us .list{ clear:both; overflow:hidden; margin-bottom:130px; margin-top:69px}
+.middle .about_us .list li{ float:left; margin-right:23px}
+.middle .about_us .list li img{ display:block }
+.middle .about_us .list li h3{ font-size:14px; color:#666666; font-weight:normal; width:277px; text-align:center; margin-top:18px}
+
+

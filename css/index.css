@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*链接*/
+.middle .btn{ width:99px; height:33px; border: 1px solid #bb835f; border-radius:4px; margin:0 auto; text-align:center}
+.middle .btn a{ display:block; width:99px; color:#c39274; font-size:14px; line-height:33px}
+
+/*公司介绍*/
+.middle .about_us .text{ width:886px; text-align:center; margin:0 auto; font-size:14px; color:#666666; line-height:26px; margin-top:40px}
+.middle .about_us .title{ margin-top:61px}
+.middle .about_us .btn{ margin-top:45px;}
+
+
+/*产品展示*/
+.middle .produc_center{ background-color:#e5e5e5; margin-top:55px; border: 1px solid #e5e5e5; overflow:hidden}
+.middle .produc_center .title{ margin-top:61px}
+.middle .produc_center .pro_list{overflow:hidden; margin-top:42px}
+.middle .produc_center .pro_list li{ float:left; margin-right:9px; position:relative}
+.middle .produc_center .pro_list li img{ border: 1px solid #a0a0a0; display: block; }
+.middle .produc_center .pro_list li b{ width:390px; height:296px; background-image:url(../img/bj.png); position:absolute; top:1px; text-align:center; display:none}
+.middle .produc_center .pro_list li:hover b{ display:block}
+.middle .produc_center .pro_list li b img{ border:none; display:inline; margin-top:107px}
+.middle .produc_center .pro_list li .text{ width:389px; height:74px;background-color:#fff; border: 1px solid #fff;}
+.middle .produc_center .pro_list li .text h3 a{ font-size:18px; font-weight: normal; margin-left:10px; margin-top:11px; line-height:18px;color:#333333; display:block}
+.middle .produc_center .pro_list li:hover .text{ border-bottom:1px solid #c39274}
+.middle .produc_center .pro_list li .text h3 a .hover{ color:#333333}
+.middle .produc_center .pro_list li:hover h3 a{ color:#be835e}
+.middle .produc_center .pro_list li .text p{ font-size:14px; margin-top:-8px; margin-left:10px; margin-top:8px; line-height:14px; color:#666}
+
+.middle .produc_center .btn{float:right; margin-top:13px; margin-right:24px; margin-bottom:45px}
+
+
+/*新闻展示*/
+/*.middle .news_center{ overflow:hidden}*/
+.middle .news_center .title{ margin-top:61px}
+.middle .news_center .content{ width:1200px; height:353px; border: 1px solid #e5e5e5; margin-top:43px}
+.middle .news_center .content .info{ width:271px; margin:36px 0 0 29px; float:left}
+.middle .news_center .content .info h2 a{font-size:14px; color:#333333; margin-top:10px; padding-left:5px;}
+.middle .news_center .content .info span{font-size:12px; color:#999999; padding-left:5px;}
+.middle .news_center .content .info p{font-size:12px; color:#666666; padding-left:5px; padding-right:7px;  margin-top:8px}
+
+.middle .news_center .content .news_list{ float:right; width:846px}
+.middle .news_center .content .news_list li{ float:left; width:263px; margin-right:19px}
+.middle .news_center .content .news_list li .date{ width:67px; height:69px; border:1px solid #333333; margin-top:44px; text-align:center;}
+.middle .news_center .content .news_list li .date b{ display:block; font-size:14px; color:#333333; margin-top:21px}
+.middle .news_center .content .news_list li .date span{ font-size:14px; color:#333333;}
+.middle .news_center .content .news_list li h2 a{ font-size:14px; color:#333333; margin-top:13px; font-weight:normal}
+.middle .news_center .content .news_list li p{ font-size:12px; color:#666666; margin-top:14px; width:260px; border-bottom:1px solid #e5e5e5; padding-bottom:15px}
+
+.middle .news_center .content .news_list li a.btn{ margin:0; float:none; border-radius:0; display:block; width:22px; height:22px; background-color:#FFF; border:1px solid #333333; margin-top:15px; text-align:center; color:#000; line-height:22px;}
+.middle .news_center .content .news_list li a.btn:hover{ background-color:#000; color:#fff;}
+
+.middle .news_center .btn{ clear:both; float:right; margin-right:26px; margin-top:21px}
+
+/*icon*/
+.middle .icon{ overflow:hidden; background-color:#c39274; margin-top:65px}
+.middle .icon ul{ width:200%; overflow:hidden}
+.middle .icon li.on{ background-color:#c99d82;}
+.middle .icon li{ width:390px; height:258px; float:left; margin-right:16px; text-align:center}
+.middle .icon li img{ margin-top:28px}
+.middle .icon li h2{ color:#f3f3f3; font-size:18px; margin-top:21px; font-family:"微软雅黑"; font-weight:normal}
+.middle .icon li p{ color:#f3f3f3; font-size:12px;  margin-top:21px; line-height:20px}
+/*.middle .icon li:hover{ background-color:#c99d82}*/
+
+/*联系方式*/
+.middle .contact_us .title{ margin-top:68px;}
+.middle .contact_us .content{ position:relative}
+.middle .contact_us .content .reserve{width:898px; height:421px; margin:0 auto;margin-top:70px;background-image:url(../img/bj3.png); background-repeat:no-repeat;  padding-top: 29px; position:absolute; top:-40px; left:160px}
+.middle .contact_us .content .reserve form{ width:851px; height:374px; background-image:url(../img/bj4.png); margin:0 auto; }
+.middle .contact_us .content .reserve input{ width:346px; height:44px; border: 1px solid #bb835f; border-radius:14px; margin-top:10px; text-indent:8px; outline:none; font-size:14px}
+.middle .contact_us .content .reserve .left{width:348px; float:left; margin-left:11px; margin-top:6px; }
+.middle .contact_us .content .reserve .right{ width:348px; float:right; margin-right:18px; margin-top:6px; margin-bottom:10px;}
+.middle .contact_us .content .reserve textarea{ width:825px; height:106px; border: 1px solid #bb835f; border-radius:14px; margin-left:11px; text-indent:8px; outline:none; resize: none; padding-top:8px; font-size:14px}
+.middle .contact_us .content .reserve .top input{ width:85px; height:35px; border: 1px solid #bb835f; border-radius:14px; margin:0; margin-top:5px; margin-left:11px; float:left}
+.middle .contact_us .content .reserve .top .ident{ margin-top:5px; margin-left:5px; float:left; cursor:pointer}
+.middle .contact_us .content .reserve .top .break{ margin-top:12px; margin-left:5px; float:left;}
+.middle .contact_us .content .reserve .button{clear:both; margin-top:76px}
+.middle .contact_us .content .reserve .button input{ width:99px; height:35px; border: 1px solid #bb835f; border-radius:8px; display:block; margin:0 auto; clear: both; text-indent:0px; color:#bb835f; background-color:#fff; cursor: pointer
+}
+
+.middle .contact_us .content .map{ padding-top:256px; margin-bottom:64px}
